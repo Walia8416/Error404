@@ -1,0 +1,509 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Initial render render 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#ffffff",
+      "justifyContent": "center",
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignSelf": "center",
+        "backgroundColor": "#e8eff5",
+        "height": 4,
+        "position": "relative",
+        "top": 48,
+        "width": 575,
+        "zIndex": -1,
+      }
+    }
+  />
+  <View
+    style={
+      Object {
+        "height": 125,
+      }
+    }
+  >
+    <RCTScrollView
+      contentContainerStyle={
+        Object {
+          "alignItems": "center",
+          "height": 125,
+          "justifyContent": "space-between",
+          "paddingHorizontal": 33.5,
+          "width": "100%",
+        }
+      }
+      data={
+        Array [
+          "Choose Design",
+          "Review Media",
+          "Add-ons",
+          "Payment",
+        ]
+      }
+      disableVirtualization={false}
+      getItem={[Function]}
+      getItemCount={[Function]}
+      horizontal={true}
+      initialNumToRender={10}
+      keyExtractor={[Function]}
+      maxToRenderPerBatch={10}
+      onContentSizeChange={[Function]}
+      onEndReachedThreshold={2}
+      onLayout={[Function]}
+      onMomentumScrollEnd={[Function]}
+      onScroll={[Function]}
+      onScrollBeginDrag={[Function]}
+      onScrollEndDrag={[Function]}
+      removeClippedSubviews={false}
+      renderItem={[Function]}
+      scrollEventThrottle={50}
+      stickyHeaderIndices={Array []}
+      updateCellsBatchingPeriod={50}
+      viewabilityConfigCallbackPairs={Array []}
+      windowSize={21}
+    >
+      <View>
+        <View
+          onLayout={[Function]}
+          style={
+            Array [
+              Object {
+                "flexDirection": "row",
+              },
+              null,
+            ]
+          }
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "height": 125,
+                "justifyContent": "space-between",
+                "paddingTop": 12.5,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "borderRadius": 29,
+                  "height": 58.5,
+                  "width": 58.5,
+                }
+              }
+            >
+              <View
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "height": "100%",
+                    "justifyContent": "center",
+                    "width": 50,
+                  }
+                }
+              >
+                <View
+                  style={
+                    Object {
+                      "alignItems": "center",
+                      "backgroundColor": "green",
+                      "borderRadius": 29,
+                      "height": 58.5,
+                      "justifyContent": "center",
+                      "width": 58.5,
+                    }
+                  }
+                >
+                  <Image
+                    resizeMode="contain"
+                    source={
+                      Object {
+                        "process": [Function],
+                      }
+                    }
+                    style={
+                      Object {
+                        "height": 29,
+                        "width": 29,
+                      }
+                    }
+                  />
+                </View>
+              </View>
+            </View>
+            <Text
+              style={
+                Object {
+                  "color": "#839fc0",
+                  "fontFamily": "Inter-Regular",
+                  "fontSize": 20,
+                  "marginTop": 8.5,
+                  "textAlign": "center",
+                  "textAlignVertical": "bottom",
+                }
+              }
+            >
+              Choose Design
+            </Text>
+          </View>
+        </View>
+        <View
+          onLayout={[Function]}
+          style={
+            Array [
+              Object {
+                "flexDirection": "row",
+              },
+              null,
+            ]
+          }
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "height": 125,
+                "justifyContent": "space-between",
+                "paddingTop": 12.5,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "borderRadius": 29,
+                  "height": 58.5,
+                  "width": 58.5,
+                }
+              }
+            >
+              <View
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "justifyContent": "center",
+                    "width": 50,
+                  }
+                }
+              >
+                <RNSVGSvgView
+                  align="xMidYMid"
+                  bbHeight={83}
+                  bbWidth={83}
+                  focusable={false}
+                  height={83}
+                  meetOrSlice={0}
+                  minX={0}
+                  minY={0}
+                  style={
+                    Array [
+                      Object {
+                        "backgroundColor": "transparent",
+                        "borderWidth": 0,
+                      },
+                      Object {
+                        "zIndex": 3,
+                      },
+                      Object {
+                        "flex": 0,
+                        "height": 83,
+                        "width": 83,
+                      },
+                    ]
+                  }
+                  vbHeight={93}
+                  vbWidth={93}
+                  width={83}
+                >
+                  <RNSVGGroup>
+                    <RNSVGGroup
+                      matrix={
+                        Array [
+                          6.123233995736766e-17,
+                          -1,
+                          1,
+                          6.123233995736766e-17,
+                          0,
+                          93,
+                        ]
+                      }
+                    >
+                      <RNSVGCircle
+                        cx="50%"
+                        cy="50%"
+                        fill={0}
+                        propList={
+                          Array [
+                            "fill",
+                            "stroke",
+                            "strokeWidth",
+                            "strokeOpacity",
+                          ]
+                        }
+                        r={41.5}
+                        stroke={4293133944}
+                        strokeOpacity={0.5}
+                        strokeWidth={5}
+                      />
+                      <RNSVGCircle
+                        cx="50%"
+                        cy="50%"
+                        fill={0}
+                        propList={
+                          Array [
+                            "fill",
+                            "stroke",
+                            "strokeWidth",
+                            "strokeDasharray",
+                            "strokeLinecap",
+                          ]
+                        }
+                        r={41.5}
+                        stroke={4293133944}
+                        strokeDasharray={
+                          Array [
+                            260.75219024795285,
+                            260.75219024795285,
+                          ]
+                        }
+                        strokeLinecap={1}
+                        strokeWidth={5}
+                      />
+                    </RNSVGGroup>
+                  </RNSVGGroup>
+                </RNSVGSvgView>
+                <View
+                  style={
+                    Array [
+                      Object {
+                        "bottom": 0,
+                        "left": 0,
+                        "position": "absolute",
+                        "right": 0,
+                        "top": 0,
+                      },
+                      Object {
+                        "alignItems": "center",
+                        "justifyContent": "center",
+                      },
+                    ]
+                  }
+                >
+                  <Text
+                    style={
+                      Object {
+                        "backgroundColor": "#e40678",
+                        "borderRadius": 50,
+                        "color": "#ffffff",
+                        "fontFamily": "Inter-Medium",
+                        "fontSize": 24,
+                        "height": 50,
+                        "textAlign": "center",
+                        "textAlignVertical": "center",
+                        "width": 50,
+                      }
+                    }
+                  >
+                    2
+                  </Text>
+                </View>
+              </View>
+            </View>
+            <Text
+              style={
+                Object {
+                  "color": "#153059",
+                  "fontFamily": "Inter-Medium",
+                  "fontSize": 20,
+                  "marginTop": 8.5,
+                  "textAlign": "center",
+                  "textAlignVertical": "bottom",
+                }
+              }
+            >
+              Review Media
+            </Text>
+          </View>
+        </View>
+        <View
+          onLayout={[Function]}
+          style={
+            Array [
+              Object {
+                "flexDirection": "row",
+              },
+              null,
+            ]
+          }
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "height": 125,
+                "justifyContent": "space-between",
+                "paddingTop": 12.5,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "borderRadius": 29,
+                  "height": 58.5,
+                  "width": 58.5,
+                }
+              }
+            >
+              <View
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "height": "100%",
+                    "justifyContent": "center",
+                    "width": 50,
+                  }
+                }
+              >
+                <View
+                  style={
+                    Object {
+                      "alignItems": "center",
+                      "backgroundColor": "#f7f9ff",
+                      "borderColor": "#e8eff5",
+                      "borderRadius": 29,
+                      "borderWidth": 1,
+                      "height": 58.5,
+                      "justifyContent": "center",
+                      "width": 58.5,
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      Object {
+                        "color": "#839fc0",
+                        "fontFamily": "Inter-Medium",
+                        "fontSize": 24,
+                      }
+                    }
+                  >
+                    3
+                  </Text>
+                </View>
+              </View>
+            </View>
+            <Text
+              style={
+                Object {
+                  "color": "#839fc0",
+                  "fontFamily": "Inter-Regular",
+                  "fontSize": 20,
+                  "marginTop": 8.5,
+                  "textAlign": "center",
+                  "textAlignVertical": "bottom",
+                }
+              }
+            >
+              Add-ons
+            </Text>
+          </View>
+        </View>
+        <View
+          onLayout={[Function]}
+          style={
+            Array [
+              Object {
+                "flexDirection": "row",
+              },
+              null,
+            ]
+          }
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "height": 125,
+                "justifyContent": "space-between",
+                "paddingTop": 12.5,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "borderRadius": 29,
+                  "height": 58.5,
+                  "width": 58.5,
+                }
+              }
+            >
+              <View
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "height": "100%",
+                    "justifyContent": "center",
+                    "width": 50,
+                  }
+                }
+              >
+                <View
+                  style={
+                    Object {
+                      "alignItems": "center",
+                      "backgroundColor": "#f7f9ff",
+                      "borderColor": "#e8eff5",
+                      "borderRadius": 29,
+                      "borderWidth": 1,
+                      "height": 58.5,
+                      "justifyContent": "center",
+                      "width": 58.5,
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      Object {
+                        "color": "#839fc0",
+                        "fontFamily": "Inter-Medium",
+                        "fontSize": 24,
+                      }
+                    }
+                  >
+                    4
+                  </Text>
+                </View>
+              </View>
+            </View>
+            <Text
+              style={
+                Object {
+                  "color": "#839fc0",
+                  "fontFamily": "Inter-Regular",
+                  "fontSize": 20,
+                  "marginTop": 8.5,
+                  "textAlign": "center",
+                  "textAlignVertical": "bottom",
+                }
+              }
+            >
+              Payment
+            </Text>
+          </View>
+        </View>
+      </View>
+    </RCTScrollView>
+  </View>
+</View>
+`;

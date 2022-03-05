@@ -1,0 +1,14 @@
+{
+    // other settings
+    // formatting using eslint
+    // let editor format using prettier for all other files
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    // available through eslint plugin in vscode
+    "eslint.alwaysShowStatus": true,
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true
+    },
+    "eslint.format.enable": true,
+    "liveServer.settings.port": 5501
+}
