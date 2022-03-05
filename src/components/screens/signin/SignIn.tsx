@@ -3,7 +3,7 @@ import {heighttodp, widthtodp} from '../../../constants/Dimenstions';
 import {Colors} from '../../../constants/colors';
 import Images from '../../../constants/icon';
 import InputFeild from '../../helpers/inputfields/InputField';
-import Loading from '../../helpers/loader/Loading';
+
 import React, {useEffect} from 'react';
 import {RouteStackParamList} from '../../../Routes';
 import {StyledText} from '../../../styled_components/styledtexts';
@@ -20,11 +20,9 @@ const SignIn: React.FC<RouteStackParamList<'SignIn'>> = ({
     formState: {errors, isValid},
   } = useForm({mode: 'onChange', shouldFocusError: true});
   const [check, setCheck] = React.useState(false);
-  const [loading, setLoading] = React.useState(false);
 
   return (
     <View style={styles.main}>
-      {loading && <Loading />}
       <View
         style={{
           marginLeft: widthtodp(20),

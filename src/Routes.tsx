@@ -20,7 +20,7 @@ import React from 'react';
 
 import SignIn from './components/screens/signin/SignIn';
 import SplashScreen from './components/screens/splashscreen/SplashScreen';
-
+import Weather from './components/screens/weather/weather';
 import {MytabBarone} from './components/helpers/navigationtabs/navigationtabs';
 import Cart from './components/screens/cart/cart';
 import Crops from './components/screens/crops/crops';
@@ -56,15 +56,14 @@ const krishiBottomNavigator = ({
   return (
     <krishiBottom.Navigator
       tabBar={props => <MytabBarone {...props} />}
-      initialRouteName={'Advertisinghome'}
-      screenOptions={{}}>
+      initialRouteName={'home'}>
       <krishiBottom.Screen
         initialParams={route.params}
-        name={'Advertisinghomed'}
+        name={'home'}
         component={Home}
       />
       <krishiBottom.Screen name={'Crops'} component={Crops} />
-      <krishiBottom.Screen name={'carthome'} component={Cart} />
+      <krishiBottom.Screen name={'Weather'} component={Weather} />
       <krishiBottom.Screen name={'ss'} component={Cart} />
     </krishiBottom.Navigator>
   );
