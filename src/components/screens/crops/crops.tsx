@@ -17,13 +17,7 @@ const Crops: React.FC<RouteStackParamList<'Crops'>> = ({
   navigation,
 }: RouteStackParamList<'Crops'>) => {
   const [shadow, setShadow] = React.useState(false);
-  const {forecast} = useAppSelector(state => state.forecast);
-  const dispatch = useDispatch();
-  useEffect(() => {
-    dispatch(getForecast());
-  }, []);
 
-  console.log(forecast);
   return (
     <SafeAreaView style={{backgroundColor: Colors.white, flex: 1}}>
       <View>

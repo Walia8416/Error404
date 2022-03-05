@@ -11,6 +11,7 @@ const Images = {
   r2: require('./../../assets/images/r2.png'),
   w1: require('./../../assets/images/w1.jpg'),
   w2: require('./../../assets/images/w2.jpg'),
+  cloud: require('./../../assets/images/cloud.png'),
   logo: require('./../../assets/images/Logo.png'),
   car1: require('./../../assets/images/car1.jpeg'),
   car2: require('./../../assets/images/car2.jpg'),

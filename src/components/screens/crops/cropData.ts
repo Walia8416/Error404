@@ -2,7 +2,7 @@ import Images from '../../../constants/icon';
 
 export const cropData = [
   {
-    id: 1,
+    key: 1,
     icon: Images.paddy,
     name: 'Paddy',
     yielding: 134,
@@ -17,7 +17,7 @@ export const cropData = [
   },
 
   {
-    id: 2,
+    key: 2,
     icon: Images.jowar,
     name: 'Jowar',
     yielding: 70,
@@ -32,12 +32,12 @@ export const cropData = [
   },
 
   {
-    id: 3,
+    key: 3,
     icon: Images.bajra,
     name: 'Bajra',
     yielding: 115,
     contents:
-      'The crop is cultivated for grain as well as for fodder in the arid region of Africa and Asia and as a pasture in USA.',
+      'The crop is cultivated for grain as well as for fodder in the arkey region of Africa and Asia and as a pasture in USA.',
     soil: 'Black Soil',
     region: 'Rajasthan',
     type: 'Kharif',
@@ -47,7 +47,7 @@ export const cropData = [
   },
 
   {
-    id: 4,
+    key: 4,
     icon: Images.corn,
     name: 'Maize',
     yielding: 90,
@@ -62,7 +62,7 @@ export const cropData = [
   },
 
   {
-    id: 5,
+    key: 5,
     icon: Images.ragi,
     name: 'Ragi',
     yielding: 125,
@@ -77,7 +77,7 @@ export const cropData = [
   },
 
   {
-    id: 6,
+    key: 6,
     icon: Images.tur,
     name: 'Tur (Arhar)',
     yielding: 110,
@@ -92,7 +92,7 @@ export const cropData = [
   },
 
   {
-    id: 7,
+    key: 7,
     icon: Images.moong,
     name: 'Moong',
     yielding: 80,
@@ -107,7 +107,7 @@ export const cropData = [
   },
 
   {
-    id: 8,
+    key: 8,
     icon: Images.urad,
     name: 'Urad',
     yielding: 80,
@@ -122,7 +122,7 @@ export const cropData = [
   },
 
   {
-    id: 9,
+    key: 9,
     icon: Images.cotton,
     name: 'Cotton',
     yielding: 160,
@@ -137,12 +137,12 @@ export const cropData = [
   },
 
   {
-    id: 10,
+    key: 10,
     icon: Images.groundnut,
     name: 'Groundnut',
     yielding: 115,
     contents:
-      'Groundnut, popularly known as the peanut is a leguminous crop cultivated for edible purposes. It is sometimes considered as a grain legume because the seed can produce oil and the crop is categorized as an oil crop.',
+      'Groundnut, popularly known as the peanut is a leguminous crop cultivated for edible purposes. It is sometimes conskeyered as a grain legume because the seed can produce oil and the crop is categorized as an oil crop.',
     soil: 'Sandy Soil',
     region: 'Gujrat',
     type: 'Kharif',
@@ -152,7 +152,7 @@ export const cropData = [
   },
 
   {
-    id: 11,
+    key: 11,
     icon: Images.sunflower,
     name: 'Sunflower Seeds',
     yielding: 70,
@@ -167,12 +167,12 @@ export const cropData = [
   },
 
   {
-    id: 12,
+    key: 12,
     icon: Images.soyabean,
     name: 'Soyabean',
     yielding: 55,
     contents:
-      'The soybean is economically the most important bean in the world, providing vegetable protein for millions of people and ingredients for hundreds of chemical products.',
+      'The soybean is economically the most important bean in the world, provkeying vegetable protein for millions of people and ingredients for hundreds of chemical products.',
     soil: 'Loamy Soil',
     region: 'Madhya Pradesh',
     type: 'Kharif',
@@ -182,7 +182,7 @@ export const cropData = [
   },
 
   {
-    id: 13,
+    key: 13,
     icon: Images.sesame,
     name: 'Sesame',
     yielding: 127,
@@ -197,12 +197,12 @@ export const cropData = [
   },
 
   {
-    id: 14,
+    key: 14,
     icon: Images.wheat,
     name: 'Wheat',
     yielding: 130,
     contents:
-      'Wheat is the main cereal crop in India. Wheat is a grass widely cultivated for its seed, a cereal grain which is a worldwide staple food.',
+      'Wheat is the main cereal crop in India. Wheat is a grass wkeyely cultivated for its seed, a cereal grain which is a worldwkeye staple food.',
     soil: 'Clayey Soil',
     region: 'Punjab',
     type: 'Rabi',
@@ -212,7 +212,7 @@ export const cropData = [
   },
 
   {
-    id: 15,
+    key: 15,
     icon: Images.barley,
     name: 'Barley',
     yielding: 142,
@@ -227,7 +227,7 @@ export const cropData = [
   },
 
   {
-    id: 16,
+    key: 16,
     icon: Images.gram,
     name: 'Gram',
     yielding: 78,
@@ -242,7 +242,7 @@ export const cropData = [
   },
 
   {
-    id: 17,
+    key: 17,
     icon: Images.masur,
     name: 'Masur (Lentil)',
     yielding: 95,
@@ -257,7 +257,7 @@ export const cropData = [
   },
 
   {
-    id: 18,
+    key: 18,
     icon: Images.mustard,
     name: 'Mustard',
     yielding: 127,
@@ -272,7 +272,7 @@ export const cropData = [
   },
 
   {
-    id: 19,
+    key: 19,
     icon: Images.jute,
     name: 'Jute',
     yielding: 120,
@@ -287,7 +287,7 @@ export const cropData = [
   },
 
   {
-    id: 20,
+    key: 20,
     icon: Images.tea,
     name: 'Tea',
     yielding: 250,
@@ -302,7 +302,7 @@ export const cropData = [
   },
 
   {
-    id: 21,
+    key: 21,
     icon: Images.coffee,
     name: 'Coffee',
     yielding: 295,
@@ -317,7 +317,7 @@ export const cropData = [
   },
 
   {
-    id: 22,
+    key: 22,
     icon: Images.sugarcane,
     name: 'Sugarcane',
     yielding: 420,

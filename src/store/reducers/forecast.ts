@@ -1,11 +1,11 @@
 import {createSlice} from '@reduxjs/toolkit';
 import {getForecast} from '../actions/forecast';
 const initialState = {
-  categories: [],
+  forecast: [],
 };
 
 export const forecastSlice = createSlice({
-  name: 'categories',
+  name: 'forecast',
   initialState: initialState,
   reducers: {},
   extraReducers: {
