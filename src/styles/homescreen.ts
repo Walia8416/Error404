@@ -1,5 +1,5 @@
 import {Dimensions, StyleSheet} from 'react-native';
-import {Medium, Regular, SemiBold} from '../constants/Fonts';
+import {Medium, Regular, RobMono, RSem, SemiBold} from '../constants/Fonts';
 
 import {Colors} from '../constants/colors';
 
@@ -14,7 +14,7 @@ export const Styles = StyleSheet.create({
   section: {
     marginHorizontal: 20,
     marginTop: 20,
-    paddingBottom: 100,
+    paddingBottom: 47,
   },
 
   //scrollItem
@@ -65,8 +65,8 @@ export const Styles = StyleSheet.create({
 
   // home section heading
   sectionheading: {
-    fontFamily: Medium,
-    fontSize: RFValue(17),
+    fontFamily: RobMono,
+    fontSize: RFValue(25),
     color: Colors.DarkGrey,
   },
   sectionlink: {

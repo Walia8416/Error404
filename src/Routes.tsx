@@ -20,11 +20,13 @@ import React from 'react';
 
 import SignIn from './components/screens/signin/SignIn';
 import SplashScreen from './components/screens/splashscreen/SplashScreen';
-
+import Weather from './components/screens/weather/weather';
 import {MytabBarone} from './components/helpers/navigationtabs/navigationtabs';
-import Cart from './components/screens/cart/cart';
+import Cart from './components/screens/cart/store';
 import Crops from './components/screens/crops/crops';
 import CropDetails from './components/screens/crops/cropDetails/cropDetails';
+import Store from './components/screens/cart/store';
+import Credits from './components/screens/credits/credits';
 
 const Stack = createNativeStackNavigator<RouteParamList>();
 const krishiBottom = createBottomTabNavigator<RouteParamList>();
@@ -41,6 +43,7 @@ const Routes: React.FC = () => {
       <Screen name={'OnBoarding'} component={OnBoarding} />
       <Screen name={'SignIn'} component={SignIn} />
       <Screen name={'CropDetails'} component={CropDetails} />
+      <Screen name={'Credits'} component={Credits} />
     </Navigator>
   );
 };
@@ -56,16 +59,15 @@ const krishiBottomNavigator = ({
   return (
     <krishiBottom.Navigator
       tabBar={props => <MytabBarone {...props} />}
-      initialRouteName={'Advertisinghome'}
-      screenOptions={{}}>
+      initialRouteName={'home'}>
       <krishiBottom.Screen
         initialParams={route.params}
-        name={'Advertisinghomed'}
+        name={'home'}
         component={Home}
       />
       <krishiBottom.Screen name={'Crops'} component={Crops} />
-      <krishiBottom.Screen name={'carthome'} component={Cart} />
-      <krishiBottom.Screen name={'ss'} component={Cart} />
+      <krishiBottom.Screen name={'Weather'} component={Weather} />
+      <krishiBottom.Screen name={'Store'} component={Store} />
     </krishiBottom.Navigator>
   );
 };

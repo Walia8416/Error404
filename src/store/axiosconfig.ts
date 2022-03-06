@@ -2,13 +2,11 @@ import axios from 'axios';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 
 export const axiosInstance = axios.create({
-  // baseURL: 'http://10.0.2.2:3000/',
-  baseURL: 'https://staging-api.admybrand.com/',
+  baseURL: 'http://api.weatherapi.com/v1/',
 });
 
 axiosInstance.interceptors.response.use(
   res => {
-    // Add configurations here
     return res;
   },
   async err => {

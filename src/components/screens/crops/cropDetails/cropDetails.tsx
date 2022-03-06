@@ -11,6 +11,7 @@ import CropCard from '../cropsCard';
 import Images from '../../../../constants/icon';
 import {heighttodp, widthtodp} from '../../../../constants/Dimenstions';
 import {RFValue} from 'react-native-responsive-fontsize';
+import {Screen_Height} from '../../../../constants/constants';
 
 const CropDetails: React.FC<RouteStackParamList<'CropDetails'>> = ({
   navigation,
@@ -29,7 +30,7 @@ const CropDetails: React.FC<RouteStackParamList<'CropDetails'>> = ({
           title={'Crop Details'}
           onPress={() => navigation.goBack()}
         />
-        <ScrollView>
+        <ScrollView contentContainerStyle={{height: Screen_Height * 1 + 150}}>
           <View style={Styles.section}>
             <View style={{flexDirection: 'row'}}>
               <Image

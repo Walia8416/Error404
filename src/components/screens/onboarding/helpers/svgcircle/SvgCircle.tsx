@@ -54,7 +54,7 @@ const SvgCircle: React.FC<Props> = ({
             }}>
             <NavButton
               disabled={disabled}
-              activeColor={activeColor}
+              activeColor={'green'}
               disableColor={disableColor}
               onPressBtn={onPressBtn}
               position={false}
@@ -62,7 +62,7 @@ const SvgCircle: React.FC<Props> = ({
           </View>
           <Circle
             ref={progressRef}
-            stroke="#e40678"
+            stroke="#0074EF"
             strokeDasharray={circumference}
             strokeDashoffset={circumference - (circumference * 25) / 100}
             r={radius}

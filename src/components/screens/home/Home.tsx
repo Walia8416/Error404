@@ -21,6 +21,9 @@ import {SafeAreaView} from 'react-native-safe-area-context';
 import {carouselData} from './helper/carData';
 import ProductCard from './helper/productCard';
 import {ScrollView} from 'react-native-gesture-handler';
+import {storeData} from '../cart/storeData';
+import {RFValue} from 'react-native-responsive-fontsize';
+import {RobMono} from '../../../constants/Fonts';
 
 const {height} = Dimensions.get('window');
 
@@ -31,7 +34,12 @@ const Home: React.FC<RouteStackParamList<'Home'>> = ({
 
   return (
     <SafeAreaView style={{backgroundColor: Colors.white, flex: 1}}>
-      <Header testID={'menu'} navigation={navigation} scroll={shadow} />
+      <Header
+        testID={'menu'}
+        navigation={navigation}
+        scroll={shadow}
+        creds={true}
+      />
       <ScrollView>
         <View style={Styles.section}>
           <View
@@ -41,6 +49,28 @@ const Home: React.FC<RouteStackParamList<'Home'>> = ({
             }}>
             <Text style={Styles.sectionheading}>Hi There!</Text>
           </View>
+          <Text
+            style={{
+              top: 20,
+              color: 'gray',
+              textAlign: 'justify',
+              fontSize: RFValue(14),
+            }}>
+            "My grandfather used to say that once in your life you need a
+            doctor, a lawyer, a policeman and a preacher. But every day, three
+            times a day, you need a farmer."
+          </Text>
+          <Text
+            style={{
+              top: 20,
+              color: 'gray',
+              marginLeft: 200,
+              fontWeight: 'bold',
+              fontSize: RFValue(13),
+            }}>
+            {' '}
+            - Brenda Schoepp
+          </Text>
         </View>
         <Carousel
           CarouselItem={CarouselItem}
@@ -59,17 +89,23 @@ const Home: React.FC<RouteStackParamList<'Home'>> = ({
               justifyContent: 'space-between',
               marginBottom: 10,
             }}>
-            <Text style={Styles.sectionheading}>Recommended Products</Text>
+            <Text
+              style={{
+                fontFamily: RobMono,
+                fontSize: RFValue(23),
+                color: Colors.DarkGrey,
+              }}>
+              Recommended Products
+            </Text>
           </View>
           <View
             style={{
               flexDirection: 'row',
               flexWrap: 'wrap',
             }}>
-            <ProductCard />
-            <ProductCard />
-            <ProductCard />
-            <ProductCard />
+            {storeData.map(item =>
+              item.id <= 4 ? <ProductCard item={item} /> : null,
+            )}
           </View>
         </View>
       </ScrollView>

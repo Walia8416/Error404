@@ -10,7 +10,7 @@ import {Styles} from '../../../../../styles/homescreen';
 import {Screen_Height} from '../../../../../constants/constants';
 import {useAppSelector} from '../../../../../store/store';
 import {useDispatch} from 'react-redux';
-import {getCategories} from '../../../../../store/actions/categories';
+import {getCategories} from '../../../../../store/actions/forecast';
 import {SvgUri} from 'react-native-svg';
 const {width} = Dimensions.get('window');
 

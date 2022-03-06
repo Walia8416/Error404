@@ -19,7 +19,7 @@ import {Colors} from '../../../constants/colors';
 
 const {width} = Dimensions.get('window');
 
-const Header = ({navigation, onPress, scroll, testID, title}) => {
+const Header = ({navigation, onPress, scroll, testID, title, creds}) => {
   return (
     <Container style={[styles.container, {elevation: scroll ? 6 : 0}]}>
       <View style={styles.flexing}>
@@ -47,6 +47,17 @@ const Header = ({navigation, onPress, scroll, testID, title}) => {
             style={{width: widthtodp(280), height: heighttodp(30)}}
           />
         )}
+        {creds ? (
+          <TouchableOpacity
+            activeOpacity={0.6}
+            onPress={() => navigation.navigate('Credits')}>
+            <ImageContainer
+              testID={testID}
+              name={Images.cred}
+              style={{width: 26, height: 26, marginLeft: 0}}
+            />
+          </TouchableOpacity>
+        ) : null}
       </View>
     </Container>
   );

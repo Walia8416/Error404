@@ -9,7 +9,7 @@ import {RouteStackParamList} from '../../../Routes';
 import {Screen_Width} from '../../../constants/constants';
 import Stepper from './helpers/strepper/Stepper';
 import Images from '../../../constants/icon';
-import Loading from '../../helpers/loader/Loading';
+
 interface renderProps {
   item: {
     key: string;
@@ -76,56 +76,52 @@ const OnBoarding: React.FC<RouteStackParamList<'OnBoarding'>> = ({
 
   return (
     <>
-      {loading ? (
-        <Loading />
-      ) : (
-        <View
-          style={{
-            flex: 1,
-            justifyContent: 'center',
-            alignItems: 'center',
-            backgroundColor: '#048569',
-          }}>
-          <ImageBanner imageBanner={Images.logoLin} />
-          <Animated.FlatList
-            testID={'flatlist'}
-            keyExtractor={(item, index) => item.id}
-            data={dummyData}
-            renderItem={renderOnBording}
-            style={{backgroundColor: '#9EF8A5'}}
-            horizontal
-            pagingEnabled
-            showsHorizontalScrollIndicator={false}
-            showsVerticalScrollIndicator={false}
-            bounces={false}
-            decelerationRate={'fast'}
-            onScroll={Animated.event(
-              [{nativeEvent: {contentOffset: {x: scrollX}}}],
-              {
-                useNativeDriver: false,
-              },
-            )}
-            scrollEventThrottle={32}
-            viewabilityConfig={viewConfig}
-            ref={sliderRef}
-            onMomentumScrollEnd={event => scrollEvent(event)}
-          />
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+          backgroundColor: '#048569',
+        }}>
+        <ImageBanner imageBanner={Images.logoLin} />
+        <Animated.FlatList
+          testID={'flatlist'}
+          keyExtractor={(item, index) => item.id}
+          data={dummyData}
+          renderItem={renderOnBording}
+          style={{backgroundColor: '#9EF8A5'}}
+          horizontal
+          pagingEnabled
+          showsHorizontalScrollIndicator={false}
+          showsVerticalScrollIndicator={false}
+          bounces={false}
+          decelerationRate={'fast'}
+          onScroll={Animated.event(
+            [{nativeEvent: {contentOffset: {x: scrollX}}}],
+            {
+              useNativeDriver: false,
+            },
+          )}
+          scrollEventThrottle={32}
+          viewabilityConfig={viewConfig}
+          ref={sliderRef}
+          onMomentumScrollEnd={event => scrollEvent(event)}
+        />
 
-          <Stepper
-            testID={'strepper'}
-            width={60}
-            data={dummyData}
-            scrollX={scrollX}
-          />
-          <NavigationButton
-            testID={'navCheck'}
-            percentage={(currentIndex + 1) * (100 / dummyData.length)}
-            disabled={check}
-            onPressBtn={() => scrollFlatlist()}
-            onPressText={() => navigation.navigate('SignIn', {name: 'SignIn'})}
-          />
-        </View>
-      )}
+        <Stepper
+          testID={'strepper'}
+          width={60}
+          data={dummyData}
+          scrollX={scrollX}
+        />
+        <NavigationButton
+          testID={'navCheck'}
+          percentage={(currentIndex + 1) * (100 / dummyData.length)}
+          disabled={check}
+          onPressBtn={() => scrollFlatlist()}
+          onPressText={() => navigation.navigate('SignIn', {name: 'SignIn'})}
+        />
+      </View>
     </>
   );
 };

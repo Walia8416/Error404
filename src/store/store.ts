@@ -1,12 +1,10 @@
 import {TypedUseSelectorHook, useDispatch, useSelector} from 'react-redux';
 import {combineReducers, configureStore} from '@reduxjs/toolkit';
-import signupSlice from './features/Signup';
-import {categoriesSlice} from './reducers/categories';
 
-// ...
+import {forecastSlice} from './reducers/forecast';
 
 const rootReducer = combineReducers({
-  categories: categoriesSlice.reducer,
+  forecast: forecastSlice.reducer,
 });
 
 export const store = configureStore({

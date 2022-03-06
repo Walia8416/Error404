@@ -2,14 +2,18 @@ import {View, Text, TouchableOpacity, ScrollView} from 'react-native';
 
 import {Colors} from '../../../constants/colors';
 import Header from '../../helpers/header/Header';
-import React, {useRef, useState} from 'react';
+import React, {useEffect, useRef, useState} from 'react';
 import {RouteStackParamList} from '../../../Routes';
 import {Styles} from '../../../styles/homescreen';
 import {SafeAreaView} from 'react-native-safe-area-context';
 import {cropData} from './cropData';
 import CropCard from './cropsCard';
-import BottomUpModal from '../../helpers/bottomupmodal/bottomupmodal';
+
+import {useAppDispatch, useAppSelector} from '../../../store/store';
+import {useDispatch} from 'react-redux';
+import {getForecast} from '../../../store/actions/forecast';
 import {heighttodp} from '../../../constants/Dimenstions';
+import {Screen_Height} from '../../../constants/constants';
 
 const Crops: React.FC<RouteStackParamList<'Crops'>> = ({
   navigation,
@@ -20,10 +24,14 @@ const Crops: React.FC<RouteStackParamList<'Crops'>> = ({
     <SafeAreaView style={{backgroundColor: Colors.white, flex: 1}}>
       <View>
         <Header testID={'menu'} navigation={navigation} scroll={shadow} />
-        <ScrollView>
+        <ScrollView contentContainerStyle={{height: Screen_Height * 3}}>
           <View style={Styles.section}>
             <View
-              style={{flexDirection: 'row', justifyContent: 'space-between'}}>
+              style={{
+                flexDirection: 'row',
+                justifyContent: 'space-between',
+                marginBottom: 18,
+              }}>
               <Text style={Styles.sectionheading}>Data On Crops</Text>
             </View>
             <View style={{flexDirection: 'row', flexWrap: 'wrap'}}>
