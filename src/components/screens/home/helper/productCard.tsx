@@ -13,7 +13,9 @@ const ProductCard = ({item}) => {
         name={item.icon}
         style={{width: widthtodp(50), height: heighttodp(50)}}
       />
-      <Text style={{color: 'black'}}>{item.name}</Text>
+      <Text style={{color: 'black', marginTop: 10, fontWeight: 'bold'}}>
+        {item.name}
+      </Text>
     </View>
   );
 };

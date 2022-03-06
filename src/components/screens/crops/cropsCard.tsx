@@ -20,7 +20,7 @@ const CropCard = ({item}) => {
         style={{
           color: 'black',
           top: 30,
-          fontSize: RFValue(13),
+          fontSize: RFValue(15),
         }}>
         {item.name}
       </Text>

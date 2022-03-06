@@ -59,8 +59,8 @@ const NavButton: React.FC<Props> = ({
       ]}>
       <Image
         resizeMode={'center'}
-        source={Images.frontarrowwhite}
-        style={{width: widthtodp(15), height: heighttodp(15)}}
+        source={Images.arrow}
+        style={{width: widthtodp(25), height: heighttodp(25)}}
       />
     </TouchableOpacity>
   );

@@ -12,6 +12,7 @@ const Images = {
   onBoard4: require('./../../assets/images/ob4.png'),
   desigma: require('./../../assets/images/desigma.png'),
   tree: require('./../../assets/images/tree.png'),
+  arrow: require('./../../assets/images/arrow.png'),
   herbicides: require('./../../assets/images/herbicides.png'),
   growthpromoters: require('./../../assets/images/growthpromoters.png'),
   fungicides: require('./../../assets/images/fungicides.png'),
