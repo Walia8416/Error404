@@ -66,7 +66,7 @@ const Weather: React.FC<RouteStackParamList<'Weather'>> = ({
                       fontWeight: '900',
                       marginTop: 30,
                       color: 'black',
-                      fontSize: RFValue(35),
+                      fontSize: RFValue(37),
                     }}>
                     {forecast.location.name}
                   </Text>
@@ -102,14 +102,28 @@ const Weather: React.FC<RouteStackParamList<'Weather'>> = ({
                     }}>
                     -------------------------
                   </Text>
+                  <View style={{flexDirection: 'row'}}>
+                    <Text style={{marginTop: 20, fontSize: RFValue(20)}}>
+                      {forecast.current.condition.text}
+                    </Text>
+                    <ImageContainer
+                      name={Images.cloud}
+                      style={{
+                        width: widthtodp(50),
+                        height: heighttodp(50),
+                      }}
+                    />
+                  </View>
 
-                  <Text style={{marginTop: 20, fontSize: RFValue(20)}}>
-                    {forecast.current.condition.text}
-                  </Text>
                   <View
                     style={{
                       flexDirection: 'row',
                       marginTop: 70,
+                      borderRadius: 20,
+                      backgroundColor: 'lightblue',
+                      opacity: 0.9,
+                      elevation: 10,
+                      width: Screen_Width / 1 - 20,
                       justifyContent: 'space-between',
                     }}>
                     {forecast.forecast.forecastday.map(item => (
@@ -132,32 +146,37 @@ const Weather: React.FC<RouteStackParamList<'Weather'>> = ({
                       </View>
                     ))}
                   </View>
-                  <View>
+                  <View
+                    style={{
+                      flexDirection: 'row',
+                      borderRadius: 20,
+                      marginTop: 70,
+                      backgroundColor: 'lightblue',
+                      opacity: 0.9,
+                      elevation: 10,
+                      padding: 20,
+                      width: widthtodp(300),
+                      justifyContent: 'space-between',
+                    }}>
                     <View
                       style={{
-                        flexDirection: 'row',
-                        marginRight: 200,
-                        marginTop: 30,
+                        marginRight: 0,
                       }}>
-                      <Text>Humidity - </Text>
+                      <Text style={{fontWeight: 'bold'}}>Humidity</Text>
                       <Text>{forecast.current.humidity}</Text>
                     </View>
                     <View
                       style={{
-                        flexDirection: 'row',
-                        marginRight: 200,
-                        marginTop: 30,
+                        marginRight: 0,
                       }}>
-                      <Text>Wind - </Text>
+                      <Text style={{fontWeight: 'bold'}}>Wind</Text>
                       <Text>{forecast.current.wind_mph}mph</Text>
                     </View>
                     <View
                       style={{
-                        flexDirection: 'row',
-                        marginRight: 200,
-                        marginTop: 30,
+                        marginRight: 0,
                       }}>
-                      <Text>Precipitation - </Text>
+                      <Text style={{fontWeight: 'bold'}}>Precipitation</Text>
                       <Text>{forecast.current.precip_mm}mm</Text>
                     </View>
                   </View>

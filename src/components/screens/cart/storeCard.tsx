@@ -9,24 +9,25 @@ import {
 import React, {useState} from 'react';
 import {heighttodp, widthtodp} from '../../../constants/Dimenstions';
 import {RFValue} from 'react-native-responsive-fontsize';
+import ImageContainer from '../../helpers/header/ImageContainer';
 
 const {width} = Dimensions.get('window');
 
 const StoreCard = ({item}) => {
   return (
     <View style={styles.cardView}>
-      {/*<ImageContainer
-        name={item.icon}
-        style={{width: widthtodp(80), height: heighttodp(50)}}
-  />*/}
       <View style={{flexDirection: 'row', width}}>
+        <ImageContainer
+          name={item.icon}
+          style={{width: widthtodp(80), height: heighttodp(80)}}
+        />
         <Text
           style={{
             color: 'black',
             fontWeight: 'bold',
-            fontSize: RFValue(14),
+            fontSize: RFValue(17),
             width: widthtodp(150),
-            left: 120,
+            left: 40,
           }}>
           {item.name}
         </Text>
@@ -36,8 +37,9 @@ const StoreCard = ({item}) => {
           color: 'black',
           fontWeight: 'bold',
           fontSize: RFValue(20),
+          bottom: 40,
           left: 120,
-          marginTop: 50,
+          marginTop: 0,
         }}>
         Rs {item.price}/-
       </Text>
@@ -50,6 +52,7 @@ const StoreCard = ({item}) => {
             borderRadius: 10,
             fontSize: RFValue(17),
             left: 120,
+            bottom: 40,
             marginTop: 5,
             width: widthtodp(95),
           }}>
