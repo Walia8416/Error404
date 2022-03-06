@@ -16,7 +16,7 @@ const {width} = Dimensions.get('window');
 const StoreCard = ({item}) => {
   return (
     <View style={styles.cardView}>
-      <View style={{flexDirection: 'row', width}}>
+      <View style={{flexDirection: 'row', width: widthtodp(200)}}>
         <ImageContainer
           name={item.icon}
           style={{width: widthtodp(80), height: heighttodp(80)}}
