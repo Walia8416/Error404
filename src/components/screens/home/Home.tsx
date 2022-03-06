@@ -21,6 +21,7 @@ import {SafeAreaView} from 'react-native-safe-area-context';
 import {carouselData} from './helper/carData';
 import ProductCard from './helper/productCard';
 import {ScrollView} from 'react-native-gesture-handler';
+import {storeData} from '../cart/storeData';
 
 const {height} = Dimensions.get('window');
 
@@ -76,10 +77,9 @@ const Home: React.FC<RouteStackParamList<'Home'>> = ({
               flexDirection: 'row',
               flexWrap: 'wrap',
             }}>
-            <ProductCard />
-            <ProductCard />
-            <ProductCard />
-            <ProductCard />
+            {storeData.map(item =>
+              item.id <= 4 ? <ProductCard item={item} /> : null,
+            )}
           </View>
         </View>
       </ScrollView>

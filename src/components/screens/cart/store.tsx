@@ -22,7 +22,9 @@ const Store: React.FC<RouteStackParamList<'Store'>> = ({
           <View style={Styles.section}>
             <View
               style={{flexDirection: 'row', justifyContent: 'space-between'}}>
-              <Text style={Styles.sectionheading}>Welcome To Krishi Store</Text>
+              <Text style={Styles.sectionheading}>
+                Welcome To Krishi Bazaar
+              </Text>
             </View>
             <View style={{marginVertical: 10}}>
               {storeData.map(item => (

@@ -10,10 +10,10 @@ const ProductCard = ({item}) => {
   return (
     <View style={styles.cardView}>
       <ImageContainer
-        name={Images.store}
+        name={item.icon}
         style={{width: widthtodp(50), height: heighttodp(50)}}
       />
-      <Text style={{color: 'black'}}>Fertilizers</Text>
+      <Text style={{color: 'black'}}>{item.name}</Text>
     </View>
   );
 };
