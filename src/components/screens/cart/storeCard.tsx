@@ -5,6 +5,7 @@ import {
   View,
   Text,
   TouchableOpacity,
+  Linking,
 } from 'react-native';
 import React, {useState} from 'react';
 import {heighttodp, widthtodp} from '../../../constants/Dimenstions';
@@ -43,22 +44,26 @@ const StoreCard = ({item}) => {
         }}>
         Rs {item.price}/-
       </Text>
-      <TouchableOpacity>
-        <Text
-          style={{
-            color: 'white',
-            backgroundColor: 'green',
-            padding: 10,
-            borderRadius: 10,
-            fontSize: RFValue(17),
-            left: 120,
-            bottom: 40,
-            marginTop: 5,
-            width: widthtodp(95),
-          }}>
-          Buy Now
-        </Text>
-      </TouchableOpacity>
+
+      <Text
+        style={{
+          color: 'white',
+          backgroundColor: 'green',
+          padding: 10,
+          borderRadius: 10,
+          fontSize: RFValue(17),
+          left: 120,
+          bottom: 40,
+          marginTop: 5,
+          width: widthtodp(95),
+        }}
+        onPress={() =>
+          Linking.openURL(item.link).catch(err =>
+            console.error("Couldn't load page", err),
+          )
+        }>
+        Buy Now
+      </Text>
     </View>
   );
 };
