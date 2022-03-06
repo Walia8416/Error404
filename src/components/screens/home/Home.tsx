@@ -31,7 +31,12 @@ const Home: React.FC<RouteStackParamList<'Home'>> = ({
 
   return (
     <SafeAreaView style={{backgroundColor: Colors.white, flex: 1}}>
-      <Header testID={'menu'} navigation={navigation} scroll={shadow} />
+      <Header
+        testID={'menu'}
+        navigation={navigation}
+        scroll={shadow}
+        creds={true}
+      />
       <ScrollView>
         <View style={Styles.section}>
           <View
@@ -41,6 +46,11 @@ const Home: React.FC<RouteStackParamList<'Home'>> = ({
             }}>
             <Text style={Styles.sectionheading}>Hi There!</Text>
           </View>
+          <Text style={{top: 30, color: 'gray'}}>
+            "My grandfather used to say that once in your life you need a
+            doctor, a lawyer, a policeman and a preacher. But every day, three
+            times a day, you need a farmer." -Brenda Schoepp
+          </Text>
         </View>
         <Carousel
           CarouselItem={CarouselItem}

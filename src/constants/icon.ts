@@ -2,6 +2,11 @@ import assets from '../../assets';
 
 const Images = {
   onBoard1: require('./../../assets/images/ob1.png'),
+  adi: require('./../../assets/images/adi.jpg'),
+  pc: require('./../../assets/images/pc.jpg'),
+  ash: require('./../../assets/images/ash.jpg'),
+  utkarsh: require('./../../assets/images/utkarsh.jpeg'),
+  md: require('./../../assets/images/md.jpg'),
   onBoard2: require('./../../assets/images/ob2.png'),
   onBoard3: require('./../../assets/images/ob3.png'),
   onBoard4: require('./../../assets/images/ob4.png'),
@@ -11,6 +16,7 @@ const Images = {
   r2: require('./../../assets/images/r2.png'),
   w1: require('./../../assets/images/w1.jpg'),
   w2: require('./../../assets/images/w2.jpg'),
+  cred: require('./../../assets/images/cred.png'),
   cloud: require('./../../assets/images/cloud.png'),
   logo: require('./../../assets/images/Logo.png'),
   car1: require('./../../assets/images/car1.jpeg'),
