@@ -1,5 +1,5 @@
 # Error404
-Official Submission to VIT Hackhub Hackathon
+Official Submission to VIT Hackhub Hackathon 2022 which came in at 3rd place!!!!!.
 
 Team - 
 1) [Aditya Walia](https://github.com/Walia8416)
