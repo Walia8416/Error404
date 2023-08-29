@@ -1,0 +1,62 @@
+{
+  "project_info": {
+    "project_number": "1072074591234",
+    "project_id": "bettervitty-ab50e",
+    "storage_bucket": "bettervitty-ab50e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1072074591234:android:62d5c38f9866f4f091eb1b",
+        "android_client_info": {
+          "package_name": "com.bettervitty"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1072074591234-qsvvono0gq1u97lsr2aft6mi4r6fqcvv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.bettervitty",
+            "certificate_hash": "05e34c8528fc1a4a98aee9d00c1095ec56766e9b"
+          }
+        },
+        {
+          "client_id": "1072074591234-tk8d03sl3h0nisgioab3lb4sgc4b2ium.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.bettervitty",
+            "certificate_hash": "5e8f16062ea3cd2c4a0d547876baa6f38cabf625"
+          }
+        },
+        {
+          "client_id": "1072074591234-3ef3vclnm4k5arhqv5gjdl16aohdlnk9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA9R6wy36PBYZ0HP3AUhanX8jiLtlLCfsU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1072074591234-3ef3vclnm4k5arhqv5gjdl16aohdlnk9.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1072074591234-rolvhupk7scfgkkv4phqo3641hjnk5nu.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.bettervitty"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

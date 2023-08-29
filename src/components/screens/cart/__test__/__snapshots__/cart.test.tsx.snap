@@ -1,0 +1,2016 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<RNCSafeAreaView
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flexDirection": "row",
+        "height": 125,
+        "justifyContent": "space-between",
+        "marginHorizontal": 33.5,
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "fontFamily": "Inter-SemiBold",
+          "fontSize": 31,
+          "fontWeight": "400",
+        }
+      }
+    >
+      Cart
+    </Text>
+    <Image
+      height={50}
+      source={
+        Object {
+          "process": [Function],
+        }
+      }
+      style={
+        Object {
+          "tintColor": "#153059",
+        }
+      }
+      width={50}
+    />
+  </View>
+  <RCTScrollView>
+    <View>
+      <View
+        style={
+          Object {
+            "height": "100%",
+          }
+        }
+      >
+        <View>
+          <View
+            style={
+              Object {
+                "flexDirection": "row",
+                "marginHorizontal": 33.5,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "width": "40%",
+                }
+              }
+            >
+              <Image
+                height={100}
+                source={
+                  Object {
+                    "process": [Function],
+                  }
+                }
+                width={150}
+              />
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "fontFamily": "Inter-Regular",
+                      "fontSize": 24,
+                      "fontWeight": "400",
+                      "lineHeight": 35,
+                    },
+                    Object {
+                      "color": "#839FC0",
+                      "marginTop": 16.5,
+                    },
+                  ]
+                }
+              >
+                10ft * 20ft
+              </Text>
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "fontFamily": "Inter-Regular",
+                      "fontSize": 24,
+                      "fontWeight": "400",
+                      "lineHeight": 35,
+                    },
+                    Object {
+                      "color": "#839FC0",
+                      "marginTop": 6.5,
+                    },
+                  ]
+                }
+              >
+                Frontlit
+              </Text>
+            </View>
+            <View
+              style={
+                Object {
+                  "width": "60%",
+                }
+              }
+            >
+              <View
+                style={
+                  Object {
+                    "flexDirection": "row",
+                    "justifyContent": "space-around",
+                  }
+                }
+              >
+                <Text
+                  style={
+                    Object {
+                      "color": "#153059",
+                      "fontSize": 31,
+                      "fontWeight": "500",
+                      "lineHeight": 41,
+                    }
+                  }
+                >
+                  Near Paras Cinema
+                </Text>
+                <Image
+                  height={30}
+                  source={
+                    Object {
+                      "process": [Function],
+                    }
+                  }
+                  width={30}
+                />
+                <View
+                  accessible={true}
+                  focusable={false}
+                  onClick={[Function]}
+                  onResponderGrant={[Function]}
+                  onResponderMove={[Function]}
+                  onResponderRelease={[Function]}
+                  onResponderTerminate={[Function]}
+                  onResponderTerminationRequest={[Function]}
+                  onStartShouldSetResponder={[Function]}
+                  style={
+                    Object {
+                      "opacity": 1,
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      Object {
+                        "color": "#839FC0",
+                        "fontSize": 49,
+                        "lineHeight": 18,
+                      }
+                    }
+                  >
+                    .
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "color": "#839FC0",
+                        "fontSize": 49,
+                        "lineHeight": 18,
+                      }
+                    }
+                  >
+                    .
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "color": "#839FC0",
+                        "fontSize": 49,
+                        "lineHeight": 18,
+                      }
+                    }
+                  >
+                    .
+                  </Text>
+                </View>
+              </View>
+              <View
+                style={
+                  Object {
+                    "flexDirection": "row",
+                    "marginBottom": 21,
+                    "marginTop": 8.5,
+                  }
+                }
+              >
+                <Image
+                  height={10}
+                  source={
+                    Object {
+                      "process": [Function],
+                    }
+                  }
+                  width={10}
+                />
+                <Text
+                  style={
+                    Array [
+                      Object {
+                        "fontFamily": "Inter-Regular",
+                        "fontSize": 24,
+                        "fontWeight": "400",
+                        "lineHeight": 35,
+                      },
+                      Object {
+                        "color": "#153059",
+                        "marginLeft": 8.5,
+                      },
+                    ]
+                  }
+                >
+                  Delhi
+                </Text>
+              </View>
+              <Text
+                style={
+                  Object {
+                    "color": "#153059",
+                    "fontFamily": "Inter-Bold",
+                    "fontSize": 27,
+                    "fontWeight": "600",
+                  }
+                }
+              >
+                ₹
+                10,920 per sec
+              </Text>
+              <View
+                style={
+                  Object {
+                    "flexDirection": "row",
+                    "marginTop": 14.5,
+                  }
+                }
+              >
+                <Text
+                  style={
+                    Array [
+                      Object {
+                        "fontFamily": "Inter-Regular",
+                        "fontSize": 24,
+                        "fontWeight": "400",
+                        "lineHeight": 35,
+                      },
+                      Object {
+                        "color": "#153059",
+                      },
+                    ]
+                  }
+                >
+                  ₹
+                  12,000
+                </Text>
+                <View
+                  accessible={true}
+                  focusable={false}
+                  onClick={[Function]}
+                  onResponderGrant={[Function]}
+                  onResponderMove={[Function]}
+                  onResponderRelease={[Function]}
+                  onResponderTerminate={[Function]}
+                  onResponderTerminationRequest={[Function]}
+                  onStartShouldSetResponder={[Function]}
+                  style={
+                    Object {
+                      "backgroundColor": "#2abe77",
+                      "marginLeft": 16.5,
+                      "opacity": 1,
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      Object {
+                        "alignItems": "center",
+                        "color": "#ffffff",
+                        "fontSize": 20,
+                        "fontWeight": "400",
+                        "padding": 2.5,
+                      }
+                    }
+                  >
+                    20% off
+                  </Text>
+                </View>
+              </View>
+            </View>
+          </View>
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "flexDirection": "row",
+                "justifyContent": "space-around",
+                "marginTop": 25,
+              }
+            }
+          >
+            <View
+              accessible={true}
+              focusable={false}
+              onClick={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Object {
+                  "alignItems": "center",
+                  "borderColor": "#e40678",
+                  "borderRadius": 5,
+                  "borderWidth": 1,
+                  "height": 66.5,
+                  "justifyContent": "center",
+                  "opacity": 1,
+                  "width": 283.5,
+                }
+              }
+            >
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "fontFamily": "Inter-Regular",
+                      "fontSize": 24,
+                      "fontWeight": "400",
+                      "lineHeight": 35,
+                    },
+                    Object {
+                      "color": "#e40678",
+                    },
+                  ]
+                }
+              >
+                Add to plan
+              </Text>
+            </View>
+            <View
+              accessible={true}
+              focusable={false}
+              onClick={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Object {
+                  "alignItems": "center",
+                  "backgroundColor": "#e40678",
+                  "borderColor": "#e40678",
+                  "borderRadius": 5,
+                  "borderWidth": 1,
+                  "height": 66.5,
+                  "justifyContent": "center",
+                  "opacity": 1,
+                  "width": 283.5,
+                }
+              }
+            >
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "fontFamily": "Inter-Regular",
+                      "fontSize": 24,
+                      "fontWeight": "400",
+                      "lineHeight": 35,
+                    },
+                    Object {
+                      "color": "#ffffff",
+                    },
+                  ]
+                }
+              >
+                Book now
+              </Text>
+            </View>
+            <View
+              accessible={true}
+              focusable={false}
+              onClick={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Object {
+                  "opacity": 1,
+                }
+              }
+            >
+              <Image
+                height={40}
+                source={
+                  Object {
+                    "process": [Function],
+                  }
+                }
+                width={40}
+              />
+            </View>
+          </View>
+          <View
+            style={
+              Object {
+                "backgroundColor": "#C5C5C5",
+                "height": 4,
+                "marginHorizontal": 33.5,
+                "marginVertical": 33.5,
+              }
+            }
+          />
+        </View>
+        <View>
+          <View
+            style={
+              Object {
+                "flexDirection": "row",
+                "marginHorizontal": 33.5,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "width": "40%",
+                }
+              }
+            >
+              <Image
+                height={100}
+                source={
+                  Object {
+                    "process": [Function],
+                  }
+                }
+                width={150}
+              />
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "fontFamily": "Inter-Regular",
+                      "fontSize": 24,
+                      "fontWeight": "400",
+                      "lineHeight": 35,
+                    },
+                    Object {
+                      "color": "#839FC0",
+                      "marginTop": 16.5,
+                    },
+                  ]
+                }
+              >
+                10ft * 20ft
+              </Text>
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "fontFamily": "Inter-Regular",
+                      "fontSize": 24,
+                      "fontWeight": "400",
+                      "lineHeight": 35,
+                    },
+                    Object {
+                      "color": "#839FC0",
+                      "marginTop": 6.5,
+                    },
+                  ]
+                }
+              >
+                Frontlit
+              </Text>
+            </View>
+            <View
+              style={
+                Object {
+                  "width": "60%",
+                }
+              }
+            >
+              <View
+                style={
+                  Object {
+                    "flexDirection": "row",
+                    "justifyContent": "space-around",
+                  }
+                }
+              >
+                <Text
+                  style={
+                    Object {
+                      "color": "#153059",
+                      "fontSize": 31,
+                      "fontWeight": "500",
+                      "lineHeight": 41,
+                    }
+                  }
+                >
+                  Near Paras Cinema
+                </Text>
+                <Image
+                  height={30}
+                  source={
+                    Object {
+                      "process": [Function],
+                    }
+                  }
+                  width={30}
+                />
+                <View
+                  accessible={true}
+                  focusable={false}
+                  onClick={[Function]}
+                  onResponderGrant={[Function]}
+                  onResponderMove={[Function]}
+                  onResponderRelease={[Function]}
+                  onResponderTerminate={[Function]}
+                  onResponderTerminationRequest={[Function]}
+                  onStartShouldSetResponder={[Function]}
+                  style={
+                    Object {
+                      "opacity": 1,
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      Object {
+                        "color": "#839FC0",
+                        "fontSize": 49,
+                        "lineHeight": 18,
+                      }
+                    }
+                  >
+                    .
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "color": "#839FC0",
+                        "fontSize": 49,
+                        "lineHeight": 18,
+                      }
+                    }
+                  >
+                    .
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "color": "#839FC0",
+                        "fontSize": 49,
+                        "lineHeight": 18,
+                      }
+                    }
+                  >
+                    .
+                  </Text>
+                </View>
+              </View>
+              <View
+                style={
+                  Object {
+                    "flexDirection": "row",
+                    "marginBottom": 21,
+                    "marginTop": 8.5,
+                  }
+                }
+              >
+                <Image
+                  height={10}
+                  source={
+                    Object {
+                      "process": [Function],
+                    }
+                  }
+                  width={10}
+                />
+                <Text
+                  style={
+                    Array [
+                      Object {
+                        "fontFamily": "Inter-Regular",
+                        "fontSize": 24,
+                        "fontWeight": "400",
+                        "lineHeight": 35,
+                      },
+                      Object {
+                        "color": "#153059",
+                        "marginLeft": 8.5,
+                      },
+                    ]
+                  }
+                >
+                  Delhi
+                </Text>
+              </View>
+              <Text
+                style={
+                  Object {
+                    "color": "#153059",
+                    "fontFamily": "Inter-Bold",
+                    "fontSize": 27,
+                    "fontWeight": "600",
+                  }
+                }
+              >
+                ₹
+                10,920 per sec
+              </Text>
+              <View
+                style={
+                  Object {
+                    "flexDirection": "row",
+                    "marginTop": 14.5,
+                  }
+                }
+              >
+                <Text
+                  style={
+                    Array [
+                      Object {
+                        "fontFamily": "Inter-Regular",
+                        "fontSize": 24,
+                        "fontWeight": "400",
+                        "lineHeight": 35,
+                      },
+                      Object {
+                        "color": "#153059",
+                      },
+                    ]
+                  }
+                >
+                  ₹
+                  12,000
+                </Text>
+                <View
+                  accessible={true}
+                  focusable={false}
+                  onClick={[Function]}
+                  onResponderGrant={[Function]}
+                  onResponderMove={[Function]}
+                  onResponderRelease={[Function]}
+                  onResponderTerminate={[Function]}
+                  onResponderTerminationRequest={[Function]}
+                  onStartShouldSetResponder={[Function]}
+                  style={
+                    Object {
+                      "backgroundColor": "#2abe77",
+                      "marginLeft": 16.5,
+                      "opacity": 1,
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      Object {
+                        "alignItems": "center",
+                        "color": "#ffffff",
+                        "fontSize": 20,
+                        "fontWeight": "400",
+                        "padding": 2.5,
+                      }
+                    }
+                  >
+                    20% off
+                  </Text>
+                </View>
+              </View>
+            </View>
+          </View>
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "flexDirection": "row",
+                "justifyContent": "space-around",
+                "marginTop": 25,
+              }
+            }
+          >
+            <View
+              accessible={true}
+              focusable={false}
+              onClick={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Object {
+                  "alignItems": "center",
+                  "borderColor": "#e40678",
+                  "borderRadius": 5,
+                  "borderWidth": 1,
+                  "height": 66.5,
+                  "justifyContent": "center",
+                  "opacity": 1,
+                  "width": 283.5,
+                }
+              }
+            >
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "fontFamily": "Inter-Regular",
+                      "fontSize": 24,
+                      "fontWeight": "400",
+                      "lineHeight": 35,
+                    },
+                    Object {
+                      "color": "#e40678",
+                    },
+                  ]
+                }
+              >
+                Add to plan
+              </Text>
+            </View>
+            <View
+              accessible={true}
+              focusable={false}
+              onClick={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Object {
+                  "alignItems": "center",
+                  "backgroundColor": "#e40678",
+                  "borderColor": "#e40678",
+                  "borderRadius": 5,
+                  "borderWidth": 1,
+                  "height": 66.5,
+                  "justifyContent": "center",
+                  "opacity": 1,
+                  "width": 283.5,
+                }
+              }
+            >
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "fontFamily": "Inter-Regular",
+                      "fontSize": 24,
+                      "fontWeight": "400",
+                      "lineHeight": 35,
+                    },
+                    Object {
+                      "color": "#ffffff",
+                    },
+                  ]
+                }
+              >
+                Book now
+              </Text>
+            </View>
+            <View
+              accessible={true}
+              focusable={false}
+              onClick={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Object {
+                  "opacity": 1,
+                }
+              }
+            >
+              <Image
+                height={40}
+                source={
+                  Object {
+                    "process": [Function],
+                  }
+                }
+                width={40}
+              />
+            </View>
+          </View>
+          <View
+            style={
+              Object {
+                "backgroundColor": "#C5C5C5",
+                "height": 4,
+                "marginHorizontal": 33.5,
+                "marginVertical": 33.5,
+              }
+            }
+          />
+        </View>
+        <View>
+          <View
+            style={
+              Object {
+                "flexDirection": "row",
+                "marginHorizontal": 33.5,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "width": "40%",
+                }
+              }
+            >
+              <Image
+                height={100}
+                source={
+                  Object {
+                    "process": [Function],
+                  }
+                }
+                width={150}
+              />
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "fontFamily": "Inter-Regular",
+                      "fontSize": 24,
+                      "fontWeight": "400",
+                      "lineHeight": 35,
+                    },
+                    Object {
+                      "color": "#839FC0",
+                      "marginTop": 16.5,
+                    },
+                  ]
+                }
+              >
+                10ft * 20ft
+              </Text>
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "fontFamily": "Inter-Regular",
+                      "fontSize": 24,
+                      "fontWeight": "400",
+                      "lineHeight": 35,
+                    },
+                    Object {
+                      "color": "#839FC0",
+                      "marginTop": 6.5,
+                    },
+                  ]
+                }
+              >
+                Frontlit
+              </Text>
+            </View>
+            <View
+              style={
+                Object {
+                  "width": "60%",
+                }
+              }
+            >
+              <View
+                style={
+                  Object {
+                    "flexDirection": "row",
+                    "justifyContent": "space-around",
+                  }
+                }
+              >
+                <Text
+                  style={
+                    Object {
+                      "color": "#153059",
+                      "fontSize": 31,
+                      "fontWeight": "500",
+                      "lineHeight": 41,
+                    }
+                  }
+                >
+                  Near Paras Cinema
+                </Text>
+                <Image
+                  height={30}
+                  source={
+                    Object {
+                      "process": [Function],
+                    }
+                  }
+                  width={30}
+                />
+                <View
+                  accessible={true}
+                  focusable={false}
+                  onClick={[Function]}
+                  onResponderGrant={[Function]}
+                  onResponderMove={[Function]}
+                  onResponderRelease={[Function]}
+                  onResponderTerminate={[Function]}
+                  onResponderTerminationRequest={[Function]}
+                  onStartShouldSetResponder={[Function]}
+                  style={
+                    Object {
+                      "opacity": 1,
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      Object {
+                        "color": "#839FC0",
+                        "fontSize": 49,
+                        "lineHeight": 18,
+                      }
+                    }
+                  >
+                    .
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "color": "#839FC0",
+                        "fontSize": 49,
+                        "lineHeight": 18,
+                      }
+                    }
+                  >
+                    .
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "color": "#839FC0",
+                        "fontSize": 49,
+                        "lineHeight": 18,
+                      }
+                    }
+                  >
+                    .
+                  </Text>
+                </View>
+              </View>
+              <View
+                style={
+                  Object {
+                    "flexDirection": "row",
+                    "marginBottom": 21,
+                    "marginTop": 8.5,
+                  }
+                }
+              >
+                <Image
+                  height={10}
+                  source={
+                    Object {
+                      "process": [Function],
+                    }
+                  }
+                  width={10}
+                />
+                <Text
+                  style={
+                    Array [
+                      Object {
+                        "fontFamily": "Inter-Regular",
+                        "fontSize": 24,
+                        "fontWeight": "400",
+                        "lineHeight": 35,
+                      },
+                      Object {
+                        "color": "#153059",
+                        "marginLeft": 8.5,
+                      },
+                    ]
+                  }
+                >
+                  Delhi
+                </Text>
+              </View>
+              <Text
+                style={
+                  Object {
+                    "color": "#153059",
+                    "fontFamily": "Inter-Bold",
+                    "fontSize": 27,
+                    "fontWeight": "600",
+                  }
+                }
+              >
+                ₹
+                10,920 per sec
+              </Text>
+              <View
+                style={
+                  Object {
+                    "flexDirection": "row",
+                    "marginTop": 14.5,
+                  }
+                }
+              >
+                <Text
+                  style={
+                    Array [
+                      Object {
+                        "fontFamily": "Inter-Regular",
+                        "fontSize": 24,
+                        "fontWeight": "400",
+                        "lineHeight": 35,
+                      },
+                      Object {
+                        "color": "#153059",
+                      },
+                    ]
+                  }
+                >
+                  ₹
+                  12,000
+                </Text>
+                <View
+                  accessible={true}
+                  focusable={false}
+                  onClick={[Function]}
+                  onResponderGrant={[Function]}
+                  onResponderMove={[Function]}
+                  onResponderRelease={[Function]}
+                  onResponderTerminate={[Function]}
+                  onResponderTerminationRequest={[Function]}
+                  onStartShouldSetResponder={[Function]}
+                  style={
+                    Object {
+                      "backgroundColor": "#2abe77",
+                      "marginLeft": 16.5,
+                      "opacity": 1,
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      Object {
+                        "alignItems": "center",
+                        "color": "#ffffff",
+                        "fontSize": 20,
+                        "fontWeight": "400",
+                        "padding": 2.5,
+                      }
+                    }
+                  >
+                    20% off
+                  </Text>
+                </View>
+              </View>
+            </View>
+          </View>
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "flexDirection": "row",
+                "justifyContent": "space-around",
+                "marginTop": 25,
+              }
+            }
+          >
+            <View
+              accessible={true}
+              focusable={false}
+              onClick={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Object {
+                  "alignItems": "center",
+                  "borderColor": "#e40678",
+                  "borderRadius": 5,
+                  "borderWidth": 1,
+                  "height": 66.5,
+                  "justifyContent": "center",
+                  "opacity": 1,
+                  "width": 283.5,
+                }
+              }
+            >
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "fontFamily": "Inter-Regular",
+                      "fontSize": 24,
+                      "fontWeight": "400",
+                      "lineHeight": 35,
+                    },
+                    Object {
+                      "color": "#e40678",
+                    },
+                  ]
+                }
+              >
+                Add to plan
+              </Text>
+            </View>
+            <View
+              accessible={true}
+              focusable={false}
+              onClick={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Object {
+                  "alignItems": "center",
+                  "backgroundColor": "#e40678",
+                  "borderColor": "#e40678",
+                  "borderRadius": 5,
+                  "borderWidth": 1,
+                  "height": 66.5,
+                  "justifyContent": "center",
+                  "opacity": 1,
+                  "width": 283.5,
+                }
+              }
+            >
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "fontFamily": "Inter-Regular",
+                      "fontSize": 24,
+                      "fontWeight": "400",
+                      "lineHeight": 35,
+                    },
+                    Object {
+                      "color": "#ffffff",
+                    },
+                  ]
+                }
+              >
+                Book now
+              </Text>
+            </View>
+            <View
+              accessible={true}
+              focusable={false}
+              onClick={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Object {
+                  "opacity": 1,
+                }
+              }
+            >
+              <Image
+                height={40}
+                source={
+                  Object {
+                    "process": [Function],
+                  }
+                }
+                width={40}
+              />
+            </View>
+          </View>
+          <View
+            style={
+              Object {
+                "backgroundColor": "#C5C5C5",
+                "height": 4,
+                "marginHorizontal": 33.5,
+                "marginVertical": 33.5,
+              }
+            }
+          />
+        </View>
+        <View>
+          <View
+            style={
+              Object {
+                "flexDirection": "row",
+                "marginHorizontal": 33.5,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "width": "40%",
+                }
+              }
+            >
+              <Image
+                height={100}
+                source={
+                  Object {
+                    "process": [Function],
+                  }
+                }
+                width={150}
+              />
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "fontFamily": "Inter-Regular",
+                      "fontSize": 24,
+                      "fontWeight": "400",
+                      "lineHeight": 35,
+                    },
+                    Object {
+                      "color": "#839FC0",
+                      "marginTop": 16.5,
+                    },
+                  ]
+                }
+              >
+                10ft * 20ft
+              </Text>
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "fontFamily": "Inter-Regular",
+                      "fontSize": 24,
+                      "fontWeight": "400",
+                      "lineHeight": 35,
+                    },
+                    Object {
+                      "color": "#839FC0",
+                      "marginTop": 6.5,
+                    },
+                  ]
+                }
+              >
+                Frontlit
+              </Text>
+            </View>
+            <View
+              style={
+                Object {
+                  "width": "60%",
+                }
+              }
+            >
+              <View
+                style={
+                  Object {
+                    "flexDirection": "row",
+                    "justifyContent": "space-around",
+                  }
+                }
+              >
+                <Text
+                  style={
+                    Object {
+                      "color": "#153059",
+                      "fontSize": 31,
+                      "fontWeight": "500",
+                      "lineHeight": 41,
+                    }
+                  }
+                >
+                  Near Paras Cinema
+                </Text>
+                <Image
+                  height={30}
+                  source={
+                    Object {
+                      "process": [Function],
+                    }
+                  }
+                  width={30}
+                />
+                <View
+                  accessible={true}
+                  focusable={false}
+                  onClick={[Function]}
+                  onResponderGrant={[Function]}
+                  onResponderMove={[Function]}
+                  onResponderRelease={[Function]}
+                  onResponderTerminate={[Function]}
+                  onResponderTerminationRequest={[Function]}
+                  onStartShouldSetResponder={[Function]}
+                  style={
+                    Object {
+                      "opacity": 1,
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      Object {
+                        "color": "#839FC0",
+                        "fontSize": 49,
+                        "lineHeight": 18,
+                      }
+                    }
+                  >
+                    .
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "color": "#839FC0",
+                        "fontSize": 49,
+                        "lineHeight": 18,
+                      }
+                    }
+                  >
+                    .
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "color": "#839FC0",
+                        "fontSize": 49,
+                        "lineHeight": 18,
+                      }
+                    }
+                  >
+                    .
+                  </Text>
+                </View>
+              </View>
+              <View
+                style={
+                  Object {
+                    "flexDirection": "row",
+                    "marginBottom": 21,
+                    "marginTop": 8.5,
+                  }
+                }
+              >
+                <Image
+                  height={10}
+                  source={
+                    Object {
+                      "process": [Function],
+                    }
+                  }
+                  width={10}
+                />
+                <Text
+                  style={
+                    Array [
+                      Object {
+                        "fontFamily": "Inter-Regular",
+                        "fontSize": 24,
+                        "fontWeight": "400",
+                        "lineHeight": 35,
+                      },
+                      Object {
+                        "color": "#153059",
+                        "marginLeft": 8.5,
+                      },
+                    ]
+                  }
+                >
+                  Delhi
+                </Text>
+              </View>
+              <Text
+                style={
+                  Object {
+                    "color": "#153059",
+                    "fontFamily": "Inter-Bold",
+                    "fontSize": 27,
+                    "fontWeight": "600",
+                  }
+                }
+              >
+                ₹
+                10,920 per sec
+              </Text>
+              <View
+                style={
+                  Object {
+                    "flexDirection": "row",
+                    "marginTop": 14.5,
+                  }
+                }
+              >
+                <Text
+                  style={
+                    Array [
+                      Object {
+                        "fontFamily": "Inter-Regular",
+                        "fontSize": 24,
+                        "fontWeight": "400",
+                        "lineHeight": 35,
+                      },
+                      Object {
+                        "color": "#153059",
+                      },
+                    ]
+                  }
+                >
+                  ₹
+                  12,000
+                </Text>
+                <View
+                  accessible={true}
+                  focusable={false}
+                  onClick={[Function]}
+                  onResponderGrant={[Function]}
+                  onResponderMove={[Function]}
+                  onResponderRelease={[Function]}
+                  onResponderTerminate={[Function]}
+                  onResponderTerminationRequest={[Function]}
+                  onStartShouldSetResponder={[Function]}
+                  style={
+                    Object {
+                      "backgroundColor": "#2abe77",
+                      "marginLeft": 16.5,
+                      "opacity": 1,
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      Object {
+                        "alignItems": "center",
+                        "color": "#ffffff",
+                        "fontSize": 20,
+                        "fontWeight": "400",
+                        "padding": 2.5,
+                      }
+                    }
+                  >
+                    20% off
+                  </Text>
+                </View>
+              </View>
+            </View>
+          </View>
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "flexDirection": "row",
+                "justifyContent": "space-around",
+                "marginTop": 25,
+              }
+            }
+          >
+            <View
+              accessible={true}
+              focusable={false}
+              onClick={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Object {
+                  "alignItems": "center",
+                  "borderColor": "#e40678",
+                  "borderRadius": 5,
+                  "borderWidth": 1,
+                  "height": 66.5,
+                  "justifyContent": "center",
+                  "opacity": 1,
+                  "width": 283.5,
+                }
+              }
+            >
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "fontFamily": "Inter-Regular",
+                      "fontSize": 24,
+                      "fontWeight": "400",
+                      "lineHeight": 35,
+                    },
+                    Object {
+                      "color": "#e40678",
+                    },
+                  ]
+                }
+              >
+                Add to plan
+              </Text>
+            </View>
+            <View
+              accessible={true}
+              focusable={false}
+              onClick={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Object {
+                  "alignItems": "center",
+                  "backgroundColor": "#e40678",
+                  "borderColor": "#e40678",
+                  "borderRadius": 5,
+                  "borderWidth": 1,
+                  "height": 66.5,
+                  "justifyContent": "center",
+                  "opacity": 1,
+                  "width": 283.5,
+                }
+              }
+            >
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "fontFamily": "Inter-Regular",
+                      "fontSize": 24,
+                      "fontWeight": "400",
+                      "lineHeight": 35,
+                    },
+                    Object {
+                      "color": "#ffffff",
+                    },
+                  ]
+                }
+              >
+                Book now
+              </Text>
+            </View>
+            <View
+              accessible={true}
+              focusable={false}
+              onClick={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Object {
+                  "opacity": 1,
+                }
+              }
+            >
+              <Image
+                height={40}
+                source={
+                  Object {
+                    "process": [Function],
+                  }
+                }
+                width={40}
+              />
+            </View>
+          </View>
+          <View
+            style={
+              Object {
+                "backgroundColor": "#C5C5C5",
+                "height": 4,
+                "marginHorizontal": 33.5,
+                "marginVertical": 33.5,
+              }
+            }
+          />
+        </View>
+        <View>
+          <View
+            style={
+              Object {
+                "flexDirection": "row",
+                "marginHorizontal": 33.5,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "width": "40%",
+                }
+              }
+            >
+              <Image
+                height={100}
+                source={
+                  Object {
+                    "process": [Function],
+                  }
+                }
+                width={150}
+              />
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "fontFamily": "Inter-Regular",
+                      "fontSize": 24,
+                      "fontWeight": "400",
+                      "lineHeight": 35,
+                    },
+                    Object {
+                      "color": "#839FC0",
+                      "marginTop": 16.5,
+                    },
+                  ]
+                }
+              >
+                10ft * 20ft
+              </Text>
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "fontFamily": "Inter-Regular",
+                      "fontSize": 24,
+                      "fontWeight": "400",
+                      "lineHeight": 35,
+                    },
+                    Object {
+                      "color": "#839FC0",
+                      "marginTop": 6.5,
+                    },
+                  ]
+                }
+              >
+                Frontlit
+              </Text>
+            </View>
+            <View
+              style={
+                Object {
+                  "width": "60%",
+                }
+              }
+            >
+              <View
+                style={
+                  Object {
+                    "flexDirection": "row",
+                    "justifyContent": "space-around",
+                  }
+                }
+              >
+                <Text
+                  style={
+                    Object {
+                      "color": "#153059",
+                      "fontSize": 31,
+                      "fontWeight": "500",
+                      "lineHeight": 41,
+                    }
+                  }
+                >
+                  Near Paras Cinema
+                </Text>
+                <Image
+                  height={30}
+                  source={
+                    Object {
+                      "process": [Function],
+                    }
+                  }
+                  width={30}
+                />
+                <View
+                  accessible={true}
+                  focusable={false}
+                  onClick={[Function]}
+                  onResponderGrant={[Function]}
+                  onResponderMove={[Function]}
+                  onResponderRelease={[Function]}
+                  onResponderTerminate={[Function]}
+                  onResponderTerminationRequest={[Function]}
+                  onStartShouldSetResponder={[Function]}
+                  style={
+                    Object {
+                      "opacity": 1,
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      Object {
+                        "color": "#839FC0",
+                        "fontSize": 49,
+                        "lineHeight": 18,
+                      }
+                    }
+                  >
+                    .
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "color": "#839FC0",
+                        "fontSize": 49,
+                        "lineHeight": 18,
+                      }
+                    }
+                  >
+                    .
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "color": "#839FC0",
+                        "fontSize": 49,
+                        "lineHeight": 18,
+                      }
+                    }
+                  >
+                    .
+                  </Text>
+                </View>
+              </View>
+              <View
+                style={
+                  Object {
+                    "flexDirection": "row",
+                    "marginBottom": 21,
+                    "marginTop": 8.5,
+                  }
+                }
+              >
+                <Image
+                  height={10}
+                  source={
+                    Object {
+                      "process": [Function],
+                    }
+                  }
+                  width={10}
+                />
+                <Text
+                  style={
+                    Array [
+                      Object {
+                        "fontFamily": "Inter-Regular",
+                        "fontSize": 24,
+                        "fontWeight": "400",
+                        "lineHeight": 35,
+                      },
+                      Object {
+                        "color": "#153059",
+                        "marginLeft": 8.5,
+                      },
+                    ]
+                  }
+                >
+                  Delhi
+                </Text>
+              </View>
+              <Text
+                style={
+                  Object {
+                    "color": "#153059",
+                    "fontFamily": "Inter-Bold",
+                    "fontSize": 27,
+                    "fontWeight": "600",
+                  }
+                }
+              >
+                ₹
+                10,920 per sec
+              </Text>
+              <View
+                style={
+                  Object {
+                    "flexDirection": "row",
+                    "marginTop": 14.5,
+                  }
+                }
+              >
+                <Text
+                  style={
+                    Array [
+                      Object {
+                        "fontFamily": "Inter-Regular",
+                        "fontSize": 24,
+                        "fontWeight": "400",
+                        "lineHeight": 35,
+                      },
+                      Object {
+                        "color": "#153059",
+                      },
+                    ]
+                  }
+                >
+                  ₹
+                  12,000
+                </Text>
+                <View
+                  accessible={true}
+                  focusable={false}
+                  onClick={[Function]}
+                  onResponderGrant={[Function]}
+                  onResponderMove={[Function]}
+                  onResponderRelease={[Function]}
+                  onResponderTerminate={[Function]}
+                  onResponderTerminationRequest={[Function]}
+                  onStartShouldSetResponder={[Function]}
+                  style={
+                    Object {
+                      "backgroundColor": "#2abe77",
+                      "marginLeft": 16.5,
+                      "opacity": 1,
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      Object {
+                        "alignItems": "center",
+                        "color": "#ffffff",
+                        "fontSize": 20,
+                        "fontWeight": "400",
+                        "padding": 2.5,
+                      }
+                    }
+                  >
+                    20% off
+                  </Text>
+                </View>
+              </View>
+            </View>
+          </View>
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "flexDirection": "row",
+                "justifyContent": "space-around",
+                "marginTop": 25,
+              }
+            }
+          >
+            <View
+              accessible={true}
+              focusable={false}
+              onClick={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Object {
+                  "alignItems": "center",
+                  "borderColor": "#e40678",
+                  "borderRadius": 5,
+                  "borderWidth": 1,
+                  "height": 66.5,
+                  "justifyContent": "center",
+                  "opacity": 1,
+                  "width": 283.5,
+                }
+              }
+            >
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "fontFamily": "Inter-Regular",
+                      "fontSize": 24,
+                      "fontWeight": "400",
+                      "lineHeight": 35,
+                    },
+                    Object {
+                      "color": "#e40678",
+                    },
+                  ]
+                }
+              >
+                Add to plan
+              </Text>
+            </View>
+            <View
+              accessible={true}
+              focusable={false}
+              onClick={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Object {
+                  "alignItems": "center",
+                  "backgroundColor": "#e40678",
+                  "borderColor": "#e40678",
+                  "borderRadius": 5,
+                  "borderWidth": 1,
+                  "height": 66.5,
+                  "justifyContent": "center",
+                  "opacity": 1,
+                  "width": 283.5,
+                }
+              }
+            >
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "fontFamily": "Inter-Regular",
+                      "fontSize": 24,
+                      "fontWeight": "400",
+                      "lineHeight": 35,
+                    },
+                    Object {
+                      "color": "#ffffff",
+                    },
+                  ]
+                }
+              >
+                Book now
+              </Text>
+            </View>
+            <View
+              accessible={true}
+              focusable={false}
+              onClick={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Object {
+                  "opacity": 1,
+                }
+              }
+            >
+              <Image
+                height={40}
+                source={
+                  Object {
+                    "process": [Function],
+                  }
+                }
+                width={40}
+              />
+            </View>
+          </View>
+          <View
+            style={
+              Object {
+                "backgroundColor": "#C5C5C5",
+                "height": 4,
+                "marginHorizontal": 33.5,
+                "marginVertical": 33.5,
+              }
+            }
+          />
+        </View>
+      </View>
+    </View>
+  </RCTScrollView>
+</RNCSafeAreaView>
+`;

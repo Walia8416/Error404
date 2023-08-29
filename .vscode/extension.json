@@ -1,0 +1,13 @@
+{
+  "recommendations": [
+    "wmaurer.change-case",
+    "eamodio.gitlens",
+    "ms-vsliveshare.vsliveshare",
+    "quicktype.quicktype",
+    "dbaeumer.vscode-eslint",
+    "esbenp.prettier-vscode",
+    "coenraads.bracket-pair-colorizer-2",
+    "msjsdiag.vscode-react-native",
+    "amatiasq.sort-imports"
+  ]
+}

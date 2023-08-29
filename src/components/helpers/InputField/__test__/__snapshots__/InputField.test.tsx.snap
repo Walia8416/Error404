@@ -1,0 +1,96 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders form 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "marginBottom": 10,
+        "width": "100%",
+      },
+      undefined,
+    ]
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flexDirection": "row",
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "paddingLeft": 2,
+          "paddingVertical": 5,
+          "textAlign": "center",
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "#415f8b",
+            "fontSize": 24,
+          }
+        }
+      >
+        User name
+      </Text>
+    </View>
+  </View>
+  <View
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "borderColor": "#c4d7e7",
+          "borderStyle": "solid",
+          "borderWidth": 1,
+          "flexDirection": "row",
+          "fontFamily": "Inter-Regular",
+          "height": 96,
+          "justifyContent": "space-between",
+          "marginTop": 5,
+          "paddingBottom": 0,
+          "paddingLeft": 12,
+          "paddingRight": 12,
+          "paddingTop": 0,
+        },
+        Object {
+          "borderColor": "#c4d7e7",
+        },
+        undefined,
+      ]
+    }
+  >
+    <TextInput
+      allowFontScaling={true}
+      name="email"
+      onBlur={[Function]}
+      onChangeText={[Function]}
+      placeholder="E-mail address"
+      placeholderTextColor="#839fc0"
+      rejectResponderTermination={true}
+      secureTextEntry={false}
+      style={
+        Array [
+          Object {
+            "color": "#415F8B",
+            "flexBasis": 0,
+            "flexGrow": 1,
+            "flexShrink": 1,
+            "fontFamily": "Inter-Regular",
+            "fontSize": 14,
+          },
+        ]
+      }
+      title="User name"
+      underlineColorAndroid="transparent"
+      value=""
+    />
+  </View>
+</View>
+`;

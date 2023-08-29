@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`bottomNavigation render test 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "justifyContent": "center",
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "height": 50,
+        "justifyContent": "center",
+        "width": 50,
+      }
+    }
+  >
+    <Image
+      height={50}
+      resizeMode="contain"
+      source={
+        Object {
+          "process": [Function],
+        }
+      }
+      width={50}
+    />
+  </View>
+</View>
+`;
