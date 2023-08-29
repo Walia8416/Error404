@@ -36,53 +36,31 @@ const Home: React.FC<RouteStackParamList<'Home'>> = ({
 }: RouteStackParamList<'Home'>) => {
   const [shadow, setShadow] = React.useState(false);
   const {stores} = useAppSelector(state => state.stores);
-  const [current, setCurrent] = useState([]);
-  const dispatch = useAppDispatch();
-  useEffect(() => {
-    setCurrent(stores.stores);
-  }, [stores]);
+  
 
-  if (current && current?.length > 0) {
+  
     return (
-      <SafeAreaView style={{backgroundColor: Colors.white, flex: 1}}>
+      <SafeAreaView style={{backgroundColor: "#041627", flex: 1}}>
         <Header
           testID={'menu'}
           navigation={navigation}
           scroll={shadow}
           creds={true}
-          title={'Create Orders'}
+          title={'Better Vitty'}
         />
         <View style={styles.mainCon}>
-          <Text style={styles.headText}>Select MI Store</Text>
+          <Text style={styles.headText}>Timetable</Text>
 
-          <ScrollView>
-            {current.map(item => (
-              <TouchableOpacity
-                onPress={() => [
-                  dispatch(
-                    getProducts(item._id),
-                    navigation.navigate('Products', {sid: item}),
-                  ),
-                ]}>
-                <ProductCard item={item} />
-              </TouchableOpacity>
-            ))}
-          </ScrollView>
+          
         </View>
       </SafeAreaView>
     );
-  }
-  return (
-    <View style={{flex: 1}}>
-      <Loading />
-    </View>
-  );
 };
 
 export default Home;
 const styles = StyleSheet.create({
   mainCon: {
-    backgroundColor: 'white',
+    backgroundColor: '#041627',
     flex: 1,
     padding: 20,
   },
@@ -90,7 +68,7 @@ const styles = StyleSheet.create({
   headText: {
     marginBottom: 20,
     fontSize: RFValue(25),
-    color: Colors.black,
+    color: Colors.white,
     fontFamily: Bold,
   },
 });

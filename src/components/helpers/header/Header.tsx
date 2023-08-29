@@ -9,19 +9,19 @@ import {
   View,
 } from 'react-native';
 import AsyncStorage from '@react-native-async-storage/async-storage';
-import {Bold} from '../../../constants/Fonts';
-import {Container} from '../../../styled_components/layout';
+import { Bold } from '../../../constants/Fonts';
+import { Container } from '../../../styled_components/layout';
 import ImageContainer from './ImageContainer';
 import Images from '../../../constants/icon';
 import React from 'react';
-import {heighttodp, widthtodp} from '../../../constants/Dimenstions';
-import {Medium} from '../../../constants/Fonts';
-import {RFValue} from 'react-native-responsive-fontsize';
-import {Colors} from '../../../constants/colors';
+import { heighttodp, widthtodp } from '../../../constants/Dimenstions';
+import { Medium } from '../../../constants/Fonts';
+import { RFValue } from 'react-native-responsive-fontsize';
+import { Colors } from '../../../constants/colors';
 
-const {width} = Dimensions.get('window');
+const { width } = Dimensions.get('window');
 
-const Header = ({navigation, onPress, scroll, testID, title, creds}) => {
+const Header = ({ navigation, onPress, scroll, testID, title, creds }) => {
   const clearAllData = async () => {
     try {
       await AsyncStorage.clear();
@@ -35,7 +35,7 @@ const Header = ({navigation, onPress, scroll, testID, title, creds}) => {
   };
 
   return (
-    <Container style={[styles.container, {elevation: scroll ? 6 : 10}]}>
+    <Container style={[styles.container, { elevation: scroll ? 6 : 10 }]}>
       <TouchableOpacity
         onPress={
           creds
@@ -45,12 +45,12 @@ const Header = ({navigation, onPress, scroll, testID, title, creds}) => {
         {creds ? (
           <ImageContainer
             name={Images.menu}
-            style={{width: widthtodp(25), height: heighttodp(25)}}
+            style={{ width: widthtodp(25), height: heighttodp(25) }}
           />
         ) : (
           <ImageContainer
             name={Images.back}
-            style={{width: widthtodp(25), height: heighttodp(25)}}
+            style={{ width: widthtodp(25), height: heighttodp(25) }}
           />
         )}
       </TouchableOpacity>
@@ -76,7 +76,7 @@ export default Header;
 const styles = StyleSheet.create({
   container: {
     flexDirection: 'row',
-
+    elevation: 10,
     paddingTop: 20,
     borderBottomLeftRadius: 10,
     borderBottomRightRadius: 10,

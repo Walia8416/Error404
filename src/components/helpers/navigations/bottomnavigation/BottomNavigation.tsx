@@ -7,7 +7,7 @@ import {Medium, Regular} from '../../../../constants/Fonts';
 import Images from '../../../../constants/icon';
 import ImageContainer from '../../header/ImageContainer';
 
-const images = [Images.home1, Images.home, Images.store1, Images.store];
+const images = [Images.home1, Images.home1, Images.store1, Images.store1];
 
 const BottomNavigation = ({
   index,

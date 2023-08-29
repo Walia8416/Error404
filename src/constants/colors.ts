@@ -23,7 +23,7 @@ export const Colors = {
   x: '#fd4900',
   yellow: '#fff1c0',
   orange: '#e08700',
-  mi: '#fd4850',
+  mi: '#041627',
   grey: '#839FC0',
   navy: '#153059',
   influencercardcolor: '#f6f9ff',

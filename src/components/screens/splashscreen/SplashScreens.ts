@@ -2,13 +2,14 @@ import {StyleSheet} from 'react-native';
 import {RFValue} from 'react-native-responsive-fontsize';
 import {Colors} from '../../../constants/colors';
 import {heighttodp, widthtodp} from '../../../constants/Dimenstions';
+import { Bold } from '../../../constants/Fonts';
 
 const styles = StyleSheet.create({
   screen: {
     flex: 1,
     justifyContent: 'center',
     alignItems: 'center',
-    backgroundColor: '#f9530b',
+    backgroundColor: '#FFF',
   },
 
   desigma: {
@@ -16,10 +17,20 @@ const styles = StyleSheet.create({
     height: heighttodp(185),
     bottom: 10,
   },
-  logos: {
-    width: widthtodp(175),
+
+  splashHead: {
+    marginBottom: 20,
+    fontSize: RFValue(35),
+    color: "#fff",
+    fontFamily: Bold,
     alignSelf: 'center',
-    height: heighttodp(200),
+    
+  },
+
+  logos: {
+    width: widthtodp(200),
+    alignSelf: 'center',
+    height: heighttodp(250),
     marginBottom: 20,
   },
   tree: {width: widthtodp(306), height: heighttodp(150), bottom: 168},

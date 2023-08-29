@@ -47,12 +47,12 @@ export const MytabBarone = ({
                 {isFocused ? (
                   <BottomNavigation
                     active={isFocused}
-                    name={'Create Order'}
+                    name={'Timetable'}
                     index={0}
                   />
                 ) : (
                   <BottomNavigation
-                    name={'Create Order'}
+                    name={'Timetable'}
                     active={isFocused}
                     index={1}
                   />
@@ -66,12 +66,12 @@ export const MytabBarone = ({
                   <BottomNavigation
                     active={isFocused}
                     index={2}
-                    name={'Orders'}
+                    name={'Profile'}
                   />
                 ) : (
                   <BottomNavigation
                     active={isFocused}
-                    name={'Orders'}
+                    name={'Profile'}
                     index={3}
                   />
                 )}

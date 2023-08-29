@@ -46,11 +46,11 @@ const SplashScreen: React.FC<RouteStackParamList<'SplashScreen'>> = ({
     try {
       const dataToken = await AsyncStorage.getItem('Tokens');
 
-      if (dataToken !== null) {
-        navigation.navigate('Home');
-      } else {
-        navigation.navigate('SignIn');
-      }
+      
+      navigation.navigate('Home');
+     
+       
+      
     } catch (e) {
       console.log('errors');
     }
@@ -59,7 +59,8 @@ const SplashScreen: React.FC<RouteStackParamList<'SplashScreen'>> = ({
   return (
     <View style={styles.screen}>
       <View style={styles.subsection}>
-        <ImageContainer name={Images.logo} style={styles.logos} />
+        <ImageContainer name={Images.arpit} style={styles.logos} />
+        
       </View>
     </View>
   );

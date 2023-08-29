@@ -14,7 +14,7 @@ const Images = {
   back: require('./../../assets/images/back.png'),
   location: require('./../../assets/images/location.png'),
   barcode: require('./../../assets/images/barcode.png'),
-
+  arpit: require('./../../assets/images/arpit.png'),
   laptop: require('./../../assets/images/laptop.png'),
 };
 
